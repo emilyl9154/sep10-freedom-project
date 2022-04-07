@@ -1,0 +1,25 @@
+@mixin overview {
+    padding-top: 70px;
+}
+
+#overview {
+    h2 {
+    &.overview {
+            text-align: center;
+            @include overview;
+            font-size: 40px;
+        }
+    }
+    ul {
+        font-size: 16px;
+    }
+    h3 {
+        text-align: center;
+    }
+    .col-md {
+        padding: 10px 30px 10px 30px;
+    }
+    border: solid 2px gray;
+    padding-bottom: 10px;
+}
+

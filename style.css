@@ -1,3 +1,15 @@
-
+#overview {
+  border: solid 2px gray;
+  padding-bottom: 10px; }
+  #overview h2.overview {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px; }
+  #overview ul {
+    font-size: 16px; }
+  #overview h3 {
+    text-align: center; }
+  #overview .col-md {
+    padding: 10px 30px 10px 30px; }
 
 /*# sourceMappingURL=style.css.map */

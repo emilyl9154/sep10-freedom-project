@@ -1,5 +1,5 @@
 @mixin overview {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 @mixin title {
     text-align: center;
@@ -24,8 +24,6 @@
     .col-md {
         padding: 10px 30px 10px 30px;
     }
-    border: solid 2px gray;
-    padding-bottom: 10px;
 }
 
 #software {
@@ -37,8 +35,59 @@
     }
     p {
         text-align: center;
+        padding: 5px;
     }
-    // .accordion {
-    //     margin: 0px 200px 0px 200px;
-    // }
+    padding-bottom: 15px;
+    .accordion {
+        padding-bottom: 30px;
+    }
+    img {
+        float: left;
+    }
+    
+    .spotify {
+        width: 70px;
+        margin: 3px 30px 10px 10px;
+    }
+    .yt-music {
+        width: 65px;
+        margin: 20px 30px 10px 10px;
+    }
+    .apple-music {
+        width: 60px;
+        margin: 20px 30px 10px 10px;
+    }
+    
+    
+    .audacity {
+        width: 40px;
+        margin: 5px 15px 10px 20px;
+    }
+    .ardour {
+        width: 40px;
+        margin: 7px 15px 10px 20px;
+    }
+    .tracktion-t7 {
+        width: 40px;
+        margin: 10px 15px 0px 20px;
+    }
+    .lmms {
+        width: 40px;
+        margin: 10px 15px 0px 20px;
+    }
+    @media (max-width: 768px) {
+        img {
+            opacity: 0%;
+            position: absolute;
+        }
+    }
+    .section-text {
+        text-align: left;
+    }
+}
+
+#hardware {
+    h2 {
+        @include title;
+    }
 }

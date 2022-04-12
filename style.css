@@ -1,24 +1,60 @@
-#overview {
-  border: solid 2px gray;
-  padding-bottom: 10px; }
-  #overview h2.overview {
-    text-align: center;
-    padding-top: 70px;
-    font-size: 40px; }
-  #overview ul {
-    font-size: 16px; }
-  #overview h3 {
-    text-align: center; }
-  #overview .col-md {
-    padding: 10px 30px 10px 30px; }
+#overview h2.overview {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 40px; }
+#overview ul {
+  font-size: 16px; }
+#overview h3 {
+  text-align: center; }
+#overview .col-md {
+  padding: 10px 30px 10px 30px; }
 
-#software h2 {
+#software {
+  padding-bottom: 15px; }
+  #software h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 15px; }
+  #software h4 {
+    text-align: center; }
+  #software p {
+    text-align: center;
+    padding: 5px; }
+  #software .accordion {
+    padding-bottom: 30px; }
+  #software img {
+    float: left; }
+  #software .spotify {
+    width: 70px;
+    margin: 3px 30px 10px 10px; }
+  #software .yt-music {
+    width: 65px;
+    margin: 20px 30px 10px 10px; }
+  #software .apple-music {
+    width: 60px;
+    margin: 20px 30px 10px 10px; }
+  #software .audacity {
+    width: 40px;
+    margin: 5px 15px 10px 20px; }
+  #software .ardour {
+    width: 40px;
+    margin: 7px 15px 10px 20px; }
+  #software .tracktion-t7 {
+    width: 40px;
+    margin: 10px 15px 0px 20px; }
+  #software .lmms {
+    width: 40px;
+    margin: 10px 15px 0px 20px; }
+  @media (max-width: 768px) {
+    #software img {
+      opacity: 0%;
+      position: absolute; } }
+  #software .section-text {
+    text-align: left; }
+
+#hardware h2 {
   text-align: center;
   font-size: 40px;
   padding: 15px; }
-#software h4 {
-  text-align: center; }
-#software p {
-  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

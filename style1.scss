@@ -6,6 +6,10 @@
     font-size: 40px;
     padding: 15px;
 }
+@mixin center-img {
+    display: block;
+    margin: auto;
+}
 
 #overview {
     h2 {
@@ -85,9 +89,35 @@
         text-align: left;
     }
 }
-
 #hardware {
+    padding-bottom: 15px;
     h2 {
         @include title;
+    }
+    p, img {
+        text-align: center;
+    }
+    .audio-interface-img {
+        width: 40%;
+        @include center-img;
+    }
+    .usb-mic-img {
+        width: 20%;
+        @include center-img;
+    }
+    .fx-processor-img {
+        width: 35%;
+        @include center-img;
+    }
+    @media (max-width: 992px) {
+        .audio-interface-img {
+            width: 80%;
+        }
+        .usb-mic-img {
+            width: 60%;
+        }
+        .fx-processor-img {
+            width: 70%;
+        }
     }
 }

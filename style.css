@@ -52,9 +52,32 @@
   #software .section-text {
     text-align: left; }
 
-#hardware h2 {
-  text-align: center;
-  font-size: 40px;
-  padding: 15px; }
+#hardware {
+  padding-bottom: 15px; }
+  #hardware h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 15px; }
+  #hardware p, #hardware img {
+    text-align: center; }
+  #hardware .audio-interface-img {
+    width: 40%;
+    display: block;
+    margin: auto; }
+  #hardware .usb-mic-img {
+    width: 20%;
+    display: block;
+    margin: auto; }
+  #hardware .fx-processor-img {
+    width: 35%;
+    display: block;
+    margin: auto; }
+  @media (max-width: 992px) {
+    #hardware .audio-interface-img {
+      width: 80%; }
+    #hardware .usb-mic-img {
+      width: 60%; }
+    #hardware .fx-processor-img {
+      width: 70%; } }
 
 /*# sourceMappingURL=style.css.map */

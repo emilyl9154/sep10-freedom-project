@@ -122,3 +122,8 @@
         }
     }
 }
+#ideas {
+    h2 {
+        @include title;
+    }
+}

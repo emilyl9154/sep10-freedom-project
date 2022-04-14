@@ -1,6 +1,6 @@
 #overview h2.overview {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 70px;
   font-size: 40px; }
 #overview ul {
   font-size: 16px; }
@@ -13,8 +13,7 @@
   padding-bottom: 15px; }
   #software h2 {
     text-align: center;
-    font-size: 40px;
-    padding: 15px; }
+    font-size: 40px; }
   #software h4 {
     text-align: center; }
   #software p {
@@ -56,8 +55,7 @@
   padding-bottom: 15px; }
   #hardware h2 {
     text-align: center;
-    font-size: 40px;
-    padding: 15px; }
+    font-size: 40px; }
   #hardware p, #hardware img {
     text-align: center; }
   #hardware .audio-interface-img {
@@ -83,7 +81,8 @@
 
 #ideas h2 {
   text-align: center;
-  font-size: 40px;
-  padding: 15px; }
+  font-size: 40px; }
+#ideas h4 {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

@@ -67,7 +67,8 @@
   #hardware .usb-mic-img {
     width: 20%;
     display: block;
-    margin: auto; }
+    margin: auto;
+    padding-bottom: 20px; }
   #hardware .fx-processor-img {
     width: 35%;
     display: block;

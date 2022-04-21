@@ -1,3 +1,6 @@
+* {
+    font-family: rubik;
+}
 @mixin overview {
     padding-top: 70px;
 }
@@ -89,6 +92,7 @@
         text-align: left;
     }
 }
+
 #hardware {
     padding-bottom: 15px;
     h2 {
@@ -122,6 +126,7 @@
         }
     }
 }
+
 #ideas {
     h2 {
         @include title;

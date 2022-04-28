@@ -1,6 +1,17 @@
 * {
     font-family: rubik;
 }
+a {
+    color: gray;
+    text-decoration: none;
+    &:hover {
+        color: #3E3E3C;
+        text-decoration: underline;
+    }
+}
+body {
+    background-image: linear-gradient(to bottom, #EBEBEA, #B9B9B6);
+}
 @mixin overview {
     padding-top: 70px;
 }
@@ -14,9 +25,14 @@
     margin: auto;
 }
 
+.navbar {
+    a:hover {
+        text-decoration: none;
+    }
+}
 #overview {
     h2 {
-    &.overview {
+        &.overview {
             text-align: center;
             @include overview;
             font-size: 40px;
@@ -33,6 +49,7 @@
     }
 }
 
+
 #software {
     h2 {
         @include title;
@@ -44,7 +61,7 @@
         text-align: center;
         padding: 5px;
     }
-    padding-bottom: 15px;
+    padding: 15px;
     .accordion {
         padding-bottom: 30px;
     }
@@ -94,7 +111,10 @@
 }
 
 #hardware {
-    padding-bottom: 15px;
+    img:hover {
+        border: solid black 2px;
+    }
+    padding: 15px;
     h2 {
         @include title;
     }
@@ -104,11 +124,12 @@
     .audio-interface-img {
         width: 40%;
         @include center-img;
+        margin-bottom: 20px;
     }
     .usb-mic-img {
         width: 20%;
         @include center-img;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
     .fx-processor-img {
         width: 35%;
@@ -128,10 +149,28 @@
 }
 
 #ideas {
+    padding: 15px;
     h2 {
         @include title;
     }
     h4 {
         text-align: center;
     }
+}
+
+
+.accordion-collapse {
+    background-color: lightgray;
+}
+.accordion-button.collapsed {
+    background-color: #e3e3e3;
+    border: gray solid 0.5px;
+    color: #707070;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #c2c2c2;
+}
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23707070'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }

@@ -2,6 +2,7 @@
     font-family: "Signika Negative";
 }
 
+
 a {
     color: gray;
     text-decoration: none;
@@ -160,6 +161,19 @@ body {
     }
     .section-text {
         text-align: left;
+    }
+    img:hover {
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg)
+        }
+        100% {
+            transform: rotate(360deg);
+        }
     }
 }
 

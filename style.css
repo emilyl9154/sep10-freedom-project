@@ -31,6 +31,15 @@ a {
   a.lastfm:hover {
     color: #cc3f37;
     text-decoration: underline; }
+  a.bandlab:hover {
+    color: #d60202;
+    text-decoration: underline; }
+  a.soundtrap:hover {
+    color: #63076e;
+    text-decoration: underline; }
+  a.endlesss:hover {
+    color: #ac46db;
+    text-decoration: underline; }
 
 body {
   background-image: linear-gradient(to bottom, #EBEBEA, #B9B9B6); }
@@ -40,7 +49,7 @@ body {
 
 #overview h2.overview {
   text-align: center;
-  padding-top: 70px;
+  margin-top: 70px;
   font-size: 40px; }
 #overview ul {
   font-size: 16px; }

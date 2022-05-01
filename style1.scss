@@ -1,11 +1,47 @@
 * {
-    font-family: rubik;
+    font-family: "Signika Negative";
+}
+
+.col-md:hover {
+    border: black solid 1px;
 }
 a {
     color: gray;
     text-decoration: none;
-    &:hover {
-        color: #3E3E3C;
+    &.spotify1:hover {
+        color: #22bf4a;
+        text-decoration: underline;
+    }
+    &.spotify2:hover {
+        color: #1b8736;
+        text-decoration: underline;
+    }
+    &.yt:hover {
+        color: #cf3e2d;
+        text-decoration: underline;
+    }
+    &.apple:hover {
+        color: #ac49f2;
+        text-decoration: underline;
+    }
+    &.audacity1:hover {
+        color: #0003c2;
+        text-decoration: underline;
+    }
+    &.ardour1:hover {
+        color: #ed462f;
+        text-decoration: underline;
+    }
+    &.tracktion1:hover {
+        color: #242424;
+        text-decoration: underline;
+    }
+    &.lmms1:hover {
+        color: #48b045;
+        text-decoration: underline;
+    }
+    &.lastfm:hover {
+        color: #cc3f37;
         text-decoration: underline;
     }
 }
@@ -45,7 +81,12 @@ body {
         text-align: center;
     }
     .col-md {
-        padding: 10px 30px 10px 30px;
+        padding: 15px 20px 10px 20px;
+        margin: 5px;
+        border: #b3b3b3 1px solid;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #dedede;
     }
 }
 
@@ -111,9 +152,6 @@ body {
 }
 
 #hardware {
-    img:hover {
-        border: solid black 2px;
-    }
     padding: 15px;
     h2 {
         @include title;
@@ -156,6 +194,14 @@ body {
     h4 {
         text-align: center;
     }
+    .col-md {
+        padding: 15px 5px 5px 5px;
+        margin: 5px;
+        border: #8a8a8a 1px solid;
+        border-radius: 10px;
+        background-color: #b5b5b5;
+        text-align: left;
+    }
 }
 
 
@@ -173,4 +219,16 @@ body {
 }
 .accordion-button:after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23707070'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+hr {
+    background-color: gray;
+    &.s {
+        background-color: #7a7a7a;
+    }
+    &.h {
+        background-color: #404040;
+    }
+    &.i {
+        background-color: #292929
+    }
 }

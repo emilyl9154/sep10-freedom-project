@@ -2,9 +2,6 @@
     font-family: "Signika Negative";
 }
 
-.col-md:hover {
-    border: black solid 1px;
-}
 a {
     color: gray;
     text-decoration: none;
@@ -88,6 +85,13 @@ body {
         border-radius: 10px;
         background-color: #dedede;
     }
+    .col-md:hover {
+        border: black solid 1px;
+    }
+    a:hover {
+        color: #3d3d3d;
+        text-decoration: underline;
+    }
 }
 
 
@@ -103,9 +107,6 @@ body {
         padding: 5px;
     }
     padding: 15px;
-    .accordion {
-        padding-bottom: 30px;
-    }
     img {
         float: left;
     }
@@ -202,6 +203,9 @@ body {
         background-color: #b5b5b5;
         text-align: left;
     }
+    .col-md:hover {
+        border: black solid 1px;
+    }
 }
 
 
@@ -212,6 +216,9 @@ body {
     background-color: #e3e3e3;
     border: gray solid 0.5px;
     color: #707070;
+}
+.accordion {
+    margin-bottom: 30px;
 }
 .accordion-button:not(.collapsed) {
     color: black;

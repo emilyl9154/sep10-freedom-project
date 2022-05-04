@@ -163,7 +163,8 @@ body {
     border: black solid 1px; }
 
 .accordion-collapse {
-  background-color: lightgray; }
+  background-color: lightgray;
+  border: solid gray 0.5px; }
 
 .accordion-button.collapsed {
   background-color: #e3e3e3;
@@ -175,7 +176,8 @@ body {
 
 .accordion-button:not(.collapsed) {
   color: black;
-  background-color: #c2c2c2; }
+  background-color: #c2c2c2;
+  border: solid gray 0.5px; }
 
 .accordion-button:after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23707070'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important; }
@@ -188,5 +190,19 @@ hr {
     background-color: #404040; }
   hr.i {
     background-color: #292929; }
+
+i {
+  animation-name: icon;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  position: relative; }
+
+@keyframes icon {
+  0% {
+    top: 1px; }
+  50% {
+    top: 0px; }
+  100% {
+    top: 1px; } }
 
 /*# sourceMappingURL=style.css.map */
